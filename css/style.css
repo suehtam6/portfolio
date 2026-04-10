@@ -211,3 +211,20 @@ body {
   .bg-light {
     background: #fafafa;
   }
+
+  .skillsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .skill {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 10px 22px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #555;
+    text-transform: uppercase;
+  }
+  
