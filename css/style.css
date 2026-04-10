@@ -57,3 +57,59 @@ body {
     color: #38bdf8;
     border-bottom: 2px solid #38bdf8;
   }
+
+  .topo {
+    padding: 180px 0 100px;
+    border-bottom: 2px solid #f0f0f0;
+    background: #fafafa;
+  }
+  
+  .container-hero {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    gap: 40px; 
+  }
+  
+  .texto-hero {
+    max-width: 650px;
+  }
+  
+  .subtitulo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #38bdf8;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+
+  .texto-hero h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+  }
+  
+  .botaoProjeto {
+    display: inline-block;
+    padding: 15px 35px;
+    border: 2px solid #272833;
+    color: #272833;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    transition: 0.3s;
+  }
+  
+  .botaoProjeto:hover {
+    background: #272833;
+    color: #fff;
+  }
+  
+  .fotoMinha img {
+    width: 320px;
+    border: 15px solid #fff;
+    box-shadow: 20px 20px 0px #f0f0f0; 
+  }
