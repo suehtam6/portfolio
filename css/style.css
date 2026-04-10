@@ -22,7 +22,7 @@ body {
     padding: 20px 0;
   }
   
-  .container-topo {
+  .containerTopo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,14 +64,14 @@ body {
     background: #fafafa;
   }
   
-  .container-hero {
+  .containerHero {
     display: flex; 
     align-items: center; 
     justify-content: space-around; 
     gap: 40px; 
   }
   
-  .texto-hero {
+  .textoHero {
     max-width: 650px;
   }
   
@@ -84,7 +84,7 @@ body {
     margin-bottom: 15px;
   }
 
-  .texto-hero h1 {
+  .textoHero h1 {
     font-size: 2rem;
     margin-bottom: 30px;
     letter-spacing: -1px;
