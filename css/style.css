@@ -228,3 +228,16 @@ body {
     text-transform: uppercase;
   }
   
+  .sobreGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    text-align: left;
+  }
+  
+  .sobreItem h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+  }
